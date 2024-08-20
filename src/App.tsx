@@ -1,8 +1,15 @@
+import { PageHeader } from "./components/page-header";
+import "./App.scss";
+import { IconsTable } from "./components/icons-table";
+
 const App = () => {
   return (
     <>
-      <h1>Icons collection preview</h1>
-      <h2>adw-react-icons</h2>
+      <PageHeader />
+      <main>
+        <h1>Adwaita icons collection for React</h1>
+        <IconsTable />
+      </main>
     </>
   );
 };

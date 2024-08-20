@@ -1,0 +1,25 @@
+.icons-table {
+  display: grid;
+
+  .row,
+  .t-row {
+    border-bottom: 1px solid var(--table-color);
+    display: grid;
+    grid-template-columns: 148px auto;
+    gap: 12px;
+    align-items: center;
+    padding: 24px 12px;
+  }
+
+  .row {
+    div {
+      text-align: center;
+    }
+  }
+
+  .t-row {
+    min-height: 72px;
+    font-weight: 500;
+    background-color: var(--table-color);
+  }
+}

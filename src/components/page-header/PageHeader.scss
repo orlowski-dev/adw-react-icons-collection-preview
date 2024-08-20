@@ -1,0 +1,19 @@
+.page-header {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  max-width: var(--max-w);
+  margin: 0 auto;
+
+  .app-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    svg {
+      color: var(--primary);
+    }
+  }
+}

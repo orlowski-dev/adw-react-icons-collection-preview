@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+main {
+  padding: 24px;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: grid;
+  gap: 48px;
+
+  h1 {
+    text-align: center;
+  }
+}
